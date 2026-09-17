@@ -1,7 +1,5 @@
 # Sistema de Autenticación Full-Stack
 
-**Autor:** Wilson Damian Caamal Ek
-
 Este proyecto es un sistema completo de registro e inicio de sesión de usuarios con validación de tokens y rutas protegidas. Está diseñado con una arquitectura moderna y escalable.
 
 ## 🛠️ Tecnologías utilizadas
