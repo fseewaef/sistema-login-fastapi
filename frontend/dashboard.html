@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Principal</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f2f5; margin: 0; }
+        .dashboard-container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; width: 400px; }
+        .email-display { color: #007bff; font-weight: bold; margin: 15px 0; font-size: 1.2em; }
+        button { width: 100%; padding: 10px; background-color: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 20px; }
+        button:hover { background-color: #c82333; }
+        .loader { color: gray; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>¡Bienvenido a tu sistema! 🚀</h2>
+        
+        <!-- Aquí mostraremos el estado de carga y el correo -->
+        <p id="status-text" class="loader">Verificando tu identidad...</p>
+        <div id="user-email" class="email-display"></div>
+        
+        <button id="btn-cerrar">Cerrar sesión</button>
+    </div>
+    
+    <script type="module" src="/src/dashboard.ts"></script>
+</body>
+</html>
